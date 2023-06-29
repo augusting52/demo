@@ -31,9 +31,20 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/btn_reset"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_blur2"
+        android:layout_marginBottom="20dp"
+        android:text="Blur1"
+        />
+
+    <Button
+        android:id="@+id/btn_blur2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/btn_reset"
+        app:layout_constraintStart_toEndOf="@id/btn_blur"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="20dp"
-        android:text="Blur"
+        android:text="Blur2"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
